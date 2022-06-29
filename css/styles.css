@@ -1,0 +1,12 @@
+body {
+  background-color: #fcf8e8;
+  margin: 0;
+}
+
+h1 {
+  margin-block: 0;
+}
+
+.main-header {
+  background-color: red;
+}
