@@ -4,9 +4,24 @@ body {
 }
 
 h1 {
-  margin-block: 0;
+  margin-top: 0;
 }
 
-.main-header {
+p {
+  margin: 0;
+}
+
+.top-container {
   background-color: red;
+}
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
 }
