@@ -12,16 +12,9 @@ p {
 }
 
 .top-container {
-  background-color: red;
 }
 .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
 }
 
 .bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
 }
