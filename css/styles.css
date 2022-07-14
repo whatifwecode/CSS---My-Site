@@ -27,9 +27,20 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fcf8e8;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fcf8e8;
+}
+
 .top-container {
   position: relative;
   padding-top: 100px;
+  background-color: #ecb390;
 }
 .middle-container {
 }
@@ -51,8 +62,71 @@ p {
 
 .skill-row {
   width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .skills-img {
-  color: #94b49f;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pencil-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  padding: 25px;
+  background-color: #ecb390;
+  border-top: 100px;
+}
+
+.footer-link {
+  padding: 0 50px 0 50px;
+  font-weight: bold;
+  color: #fcf8e8;
+}
+
+.footer-link:visited {
+  color: #fcf8e8;
+}
+
+.credentials {
+  padding-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  background: #df7861;
+  padding: 10px 30px 10px 30px;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: #fcf8e8;
+}
+
+.btn:hover {
+  background-image: -webkit-linear-gradient(top, #df7861, #fcf8e8);
+  background-image: -moz-linear-gradient(top, #df7861, #fcf8e8);
+  background-image: -ms-linear-gradient(top, #df7861, #fcf8e8);
+  background-image: -o-linear-gradient(top, #df7861, #fcf8e8);
+  background-image: linear-gradient(to bottom, #df7861, #fcf8e8);
+  text-decoration: none;
+  padding: 10px 30px 10px 30px;
+}
+
+hr {
+  display: inline-block;
+  width: 60px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #df7861;
+  border-top-width: 10px;
+  margin-top: 40px;
 }
